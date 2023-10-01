@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "aYfEfiZiPtWDTDnI5nzzBk5KKBHvJFuOc2b+IxrYA4igtPphjUh8abge4Y96BqR5IyRkzKX5nKr+4TCTUkK8CA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lasto\\source\\repos\\SeleniumProject\\SeleniumProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lasto\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\lasto\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\lasto\\.nuget\\packages\\selenium.chrome.webdriver\\85.0.0\\selenium.chrome.webdriver.85.0.0.nupkg.sha512",
+    "C:\\Users\\lasto\\.nuget\\packages\\selenium.webdriver\\4.13.1\\selenium.webdriver.4.13.1.nupkg.sha512",
+    "C:\\Users\\lasto\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
