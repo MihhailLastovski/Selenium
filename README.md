@@ -1,7 +1,7 @@
-# Selenium в C# с .NET
+# [Selenium](https://www.selenium.dev/documentation/ 'Selenium documentation') в C# с .NET
 
 ### Use Selenium WebDriver for browser automation using C# and .NET
-### Used Visual Studio Code - code editor
+### [Used Visual Studio Code - code editor](https://code.visualstudio.com/ 'VScode')
 
 ## Installing packages
 
