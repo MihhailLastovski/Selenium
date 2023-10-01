@@ -1,31 +1,37 @@
 ﻿using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
+
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        // Set the path to the ChromeDriver executable
-        var driverPath = "C:/Users/lasto/Downloads/chromedriver_win32";
+        ChromeOptions options = new ChromeOptions();
+        options.AddArgument("--disable-notifications");
 
-        // Create a ChromeDriver instance
-        IWebDriver driver = new ChromeDriver(driverPath);
+        IWebDriver driver = new ChromeDriver(options);
 
-        // Navigate to a website (e.g., Google)
         driver.Navigate().GoToUrl("https://www.google.com");
 
-        // Find the search input element and type a query
-        IWebElement searchBox = driver.FindElement(By.Name("q"));
-        searchBox.SendKeys("Your search query");
+        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+        IWebElement consentButton = wait.Until(ExpectedConditions.ElementIsVisible(By.Id("L2AGLb")));
 
-        // Submit the search
-        searchBox.Submit();
-
-        // Wait for a few seconds (you may need to add proper waits)
+        if (consentButton != null && consentButton.Displayed)
+        {
+            consentButton.Click(); 
+        }
+        IWebElement searchBox = wait.Until(ExpectedConditions.ElementToBeClickable(By.Name("q")));
         System.Threading.Thread.Sleep(5000);
 
-        // Close the browser
+        searchBox.SendKeys("tthk");
+
+        searchBox.Submit();
+
+        System.Threading.Thread.Sleep(5000);
+
         driver.Quit();
     }
 }

@@ -9,7 +9,9 @@
       "SeleniumProject/1.0.0": {
         "dependencies": {
           "Selenium.Chrome.WebDriver": "85.0.0",
-          "Selenium.WebDriver": "4.13.1"
+          "Selenium.WebDriver": "4.13.1",
+          "Selenium.WebDriver.ChromeDriver": "117.0.5938.9200",
+          "SeleniumExtras.WaitHelpers": "1.0.2"
         },
         "runtime": {
           "SeleniumProject.dll": {}
@@ -49,6 +51,18 @@
           "lib/netstandard2.0/WebDriver.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/117.0.5938.9200": {},
+      "SeleniumExtras.WaitHelpers/1.0.2": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.13.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
           }
         }
       },
@@ -106,6 +120,20 @@
       "sha512": "sha512-7asjwKWgLNjIe+NZ9GwiWWshRD9IWQzltZPiWFxF7UH62ymqjD5L0PUsWJlDm4cew1YHhcqcQpGkgi6FsGZaig==",
       "path": "selenium.webdriver/4.13.1",
       "hashPath": "selenium.webdriver.4.13.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/117.0.5938.9200": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cCeKHiyR5Duu2Vwd+JFT+iBz3U0MiCI0Fmwl6GUdlkE6LigkANDj+dIound5FZxIe8ieiV+/jvTCGy6CnDxRLw==",
+      "path": "selenium.webdriver.chromedriver/117.0.5938.9200",
+      "hashPath": "selenium.webdriver.chromedriver.117.0.5938.9200.nupkg.sha512"
+    },
+    "SeleniumExtras.WaitHelpers/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-de7m30nkZZLkfCncYBdluUpM27AR/Vkk4kiA4HRQbV+fZI3ps4qGIeJCuj8TAMXdMfQik5Rno8xPnFBIod+ebg==",
+      "path": "seleniumextras.waithelpers/1.0.2",
+      "hashPath": "seleniumextras.waithelpers.1.0.2.nupkg.sha512"
     },
     "System.Drawing.Common/7.0.0": {
       "type": "package",

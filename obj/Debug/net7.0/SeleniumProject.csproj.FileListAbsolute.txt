@@ -23,3 +23,4 @@ C:\Users\lasto\source\repos\SeleniumProject\obj\Debug\net7.0\refint\SeleniumProj
 C:\Users\lasto\source\repos\SeleniumProject\obj\Debug\net7.0\SeleniumProject.pdb
 C:\Users\lasto\source\repos\SeleniumProject\obj\Debug\net7.0\SeleniumProject.genruntimeconfig.cache
 C:\Users\lasto\source\repos\SeleniumProject\obj\Debug\net7.0\ref\SeleniumProject.dll
+C:\Users\lasto\source\repos\SeleniumProject\bin\Debug\net7.0\SeleniumExtras.WaitHelpers.dll
