@@ -1,6 +1,7 @@
 # Selenium в C# с .NET
 
-Use Selenium WebDriver for browser automation using C# and .NET
+### Use Selenium WebDriver for browser automation using C# and .NET
+### Used Visual Studio Code - code editor
 
 ## Installing packages
 
